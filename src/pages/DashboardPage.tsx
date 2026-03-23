@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import Chatbot from '../components/Chatbot';
 
-const API_BASE = 'http://127.0.0.1:8002';
+import { API_BASE } from '../config';
 
 const DashboardPage = () => {
   const [user, setUser] = useState<any>(null);

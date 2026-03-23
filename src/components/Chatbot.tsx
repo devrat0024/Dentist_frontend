@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Send, Loader2, Bot, User } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE = 'http://127.0.0.1:8002';
+import { API_BASE } from '../config';
 
 interface Message {
   text: string;

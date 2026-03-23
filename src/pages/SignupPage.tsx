@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Lock, User, Phone, Mail, Loader2, Eye, EyeOff } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const API_BASE = 'http://127.0.0.1:8002';
+import { API_BASE } from '../config';
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
